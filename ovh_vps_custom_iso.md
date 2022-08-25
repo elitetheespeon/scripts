@@ -29,7 +29,7 @@ fdisk -u /dev/sdb
 
 ```
 # cd /mnt/ramdisk/
-# wget https://espeon.dev/pfSense-CE-2.5.2-RELEASE-amd64.iso
+# wget https://espeon.dev/pfSense-CE-2.6.0-RELEASE-amd64.iso
 ```
 ### 6) Run qemu (replace ISO location and vdisk name if required):
 
