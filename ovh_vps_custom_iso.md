@@ -34,7 +34,7 @@ fdisk -u /dev/sdb
 ### 6) Run qemu (replace ISO location and vdisk name if required):
 
 ```
-# qemu-system-x86_64 -netdev type=user,id=mynet0 -device virtio-net-pci,netdev=mynet0 -m 2048 -enable-kvm -drive index=0,media=disk,if=virtio,file=/dev/sdb -vga qxl -spice port=5900,addr=127.0.0.1,disable-ticketing -daemonize -cdrom /mnt/ramdisk/CentOS-8.5.2111-x86_64-boot.iso -boot d
+# qemu-system-x86_64 -netdev type=user,id=mynet0 -device virtio-net-pci,netdev=mynet0 -m 2048 -enable-kvm -drive index=0,media=disk,if=virtio,file=/dev/sdb -vga qxl -spice port=5900,addr=127.0.0.1,disable-ticketing -daemonize -cdrom /mnt/ramdisk/pfSense-CE-2.6.0-RELEASE-amd64.iso -boot d
 ```
 ### 7) If your workstation is running Linux, forward a port through an SSH tunnel to your VPS (for Windows open powershell and run command):
 
