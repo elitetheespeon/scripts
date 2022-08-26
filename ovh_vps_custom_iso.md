@@ -22,7 +22,7 @@ fdisk -u /dev/sdb
 ### 4) Make a RAM disk for the ISO (in this example we set 2GB):
 
 ```
-# wget mkdir /mnt/ramdisk
+# mkdir /mnt/ramdisk
 # mount -t tmpfs -o rw,size=2G tmpfs /mnt/ramdisk
 ```
 ### 5) Download your ISO:
