@@ -89,8 +89,8 @@ Follow Symbolic Link: No
 Enable Scripts/ExtApps: Yes
 Restrained: Yes
 External App Set UID Mode: <Leave default>
-suEXEC User: <Leave default>
-suEXEC Group: <Leave default>
+suEXEC User: lsws
+suEXEC Group: lsws
 Static Requests/second: <Leave default>
 Dynamic Requests/second: <Leave default>
 Outbound Bandwidth (bytes/sec): <Leave default>
